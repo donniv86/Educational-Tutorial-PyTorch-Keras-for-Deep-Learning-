@@ -1,0 +1,44 @@
+# =============================================================================
+# Heart Disease Deep Learning — Requirements
+# =============================================================================
+#
+# PYTHON VERSION REQUIREMENTS:
+#   - PyTorch notebook          : Python 3.9+  (works on 3.14)
+#   - Multi-framework notebook  : Python 3.9 – 3.12  (TF not yet on 3.13+)
+#
+# INSTALL ALL (Python 3.9–3.12 only):
+#   pip install -r requirements.txt
+#
+# INSTALL PYTORCH ONLY (all Python versions):
+#   pip install -r requirements-pytorch.txt
+# =============================================================================
+
+# ── Core Data & Visualisation ─────────────────────────────────────
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.12
+
+# ── Machine Learning Utilities ────────────────────────────────────
+scikit-learn>=1.3
+ucimlrepo>=0.0.3
+
+# ── Deep Learning: PyTorch (CPU) ──────────────────────────────────
+# For CPU-only (no GPU) — works on all platforms and Python 3.9+
+torch>=2.0
+
+# ── Deep Learning: TensorFlow/Keras (CPU, Python 3.9–3.12) ───────
+# TensorFlow does NOT yet support Python 3.13+
+# See: https://www.tensorflow.org/install/pip
+tensorflow>=2.12,<2.20   ; python_version < "3.13"
+
+# macOS M1/M2/M3 users — use tensorflow-macos instead:
+# tensorflow-macos>=2.12 ; python_version < "3.13" and sys_platform == "darwin"
+
+# ── Explainability ────────────────────────────────────────────────
+shap>=0.42
+
+# ── Jupyter ───────────────────────────────────────────────────────
+jupyter>=1.0
+notebook>=7.0
+ipywidgets>=8.0

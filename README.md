@@ -1,6 +1,18 @@
-# Heart Disease Classification — Deep Learning with PyTorch
+# Heart Disease Classification — Deep Learning with PyTorch, Keras & TensorFlow
 
-> **An end-to-end educational notebook** covering the full deep learning workflow — from raw data to explainable predictions — using the [UCI Heart Disease dataset](https://archive.ics.uci.edu/dataset/45/heart+disease).
+> **An end-to-end educational repository** covering the full deep learning workflow — from raw data to explainable predictions — using the [UCI Heart Disease dataset](https://archive.ics.uci.edu/dataset/45/heart+disease).  
+> Two notebooks are provided: a focused PyTorch tutorial and a comprehensive multi-framework comparison.
+
+---
+
+## Notebooks
+
+| Notebook | Frameworks | Description |
+|----------|-----------|-------------|
+| [`heart_disease_deep_learning.ipynb`](heart_disease_deep_learning.ipynb) | PyTorch | 14-step in-depth tutorial — architecture design, regularisation, SHAP explainability |
+| [`multi_framework_heart_disease.ipynb`](multi_framework_heart_disease.ipynb) | PyTorch · Keras Sequential · Keras Functional · TF GradientTape | Side-by-side comparison of all major deep learning frameworks |
+
+> **Python version note**: TensorFlow requires Python ≤ 3.12. If you are on Python 3.13+, Parts 2–4 of the multi-framework notebook will be gracefully skipped; PyTorch (Part 1) always runs.
 
 ---
 
@@ -139,14 +151,20 @@ pip install torch scikit-learn ucimlrepo pandas numpy matplotlib seaborn shap
 git clone https://github.com/donniv86/Educational-Tutorial-PyTorch-Keras-for-Deep-Learning-.git
 cd Educational-Tutorial-PyTorch-Keras-for-Deep-Learning-
 
-# Install dependencies
-pip install torch scikit-learn ucimlrepo pandas numpy matplotlib seaborn shap
+# (Recommended) create a Python 3.10–3.12 virtual environment
+python3.11 -m venv .venv && source .venv/bin/activate
 
-# Open the notebook
+# Install all dependencies
+pip install -r requirements.txt
+
+# Open the PyTorch tutorial
 jupyter notebook heart_disease_deep_learning.ipynb
+
+# — or — open the multi-framework notebook
+jupyter notebook multi_framework_heart_disease.ipynb
 ```
 
-Run cells top-to-bottom with `Shift + Enter`. No manual data download needed — the notebook fetches the dataset directly from UCI.
+Run cells top-to-bottom with `Shift + Enter`. No manual data download needed — the notebooks fetch the dataset directly from UCI.
 
 ---
 
