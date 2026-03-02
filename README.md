@@ -10,16 +10,21 @@ This repository is a hands-on, beginner-friendly resource for students and profe
 - **Educator-Style Explanations**: Clear, step-by-step guidance for learners
 
 ## Getting Started
-1. Clone the repo:
+1. **Clone the repo:**
    ```bash
    git clone https://github.com/donniv86/Educational-Tutorial-PyTorch-Keras-for-Deep-Learning-
    cd Educational-Tutorial-PyTorch-Keras-for-Deep-Learning-
    ```
-2. Install dependencies:
+2. **Create a virtual environment (recommended):**
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+   ```
+3. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
-3. Open the notebooks in Jupyter or VS Code and start learning!
+4. **Open the notebooks in Jupyter or VS Code and start learning!**
 
 ## Notebooks Included
 - `multi_framework_heart_disease.ipynb`: Compare PyTorch, Keras, and TensorFlow on heart disease data
