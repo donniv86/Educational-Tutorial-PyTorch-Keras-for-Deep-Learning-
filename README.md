@@ -3,11 +3,11 @@
 This repository is a hands-on, beginner-friendly resource for students and professionals who want to learn how to apply AI and machine learning to healthcare and life sciences problems.
 
 ## What You'll Find
-- **Heart Disease Prediction**: End-to-end notebooks using real-world data
+- **Heart Disease Prediction**: End-to-end notebooks using real-world data, including the Hugging Face Heart Disease Prediction dataset
 - **Multi-Framework Tutorials**: PyTorch, Keras, TensorFlow, and scikit-learn
 - **Model Comparison**: Cross-validation, statistical analysis, and robust evaluation
 - **Best Practices**: Reproducible research, model saving/loading, and deployment basics
-- **Educator-Style Explanations**: Clear, step-by-step guidance for learners
+
 
 ## Getting Started
 1. **Clone the repo:**
@@ -28,7 +28,7 @@ This repository is a hands-on, beginner-friendly resource for students and profe
 
 ## Notebooks Included
 - `multi_framework_heart_disease.ipynb`: Compare PyTorch, Keras, and TensorFlow on heart disease data
-- `model_comparison_inferential_stats.ipynb`: Model comparison with statistical plots and tests
+- `model_comparison_inferential_stats.ipynb`: Model comparison with statistical plots and tests, now using the Hugging Face Heart Disease Prediction dataset (`Naresh20/Heart_disease_prediction`)
 - `model_crossval_external_test.ipynb`: Cross-validation, model selection, and external test evaluation
 
 ## Python Crash Course for Healthcare Professionals and Students
