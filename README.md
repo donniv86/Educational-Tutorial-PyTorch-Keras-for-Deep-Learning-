@@ -27,9 +27,12 @@ This repository is a hands-on, beginner-friendly resource for students and profe
 4. **Open the notebooks in Jupyter or VS Code and start learning!**
 
 ## Notebooks Included
-- `multi_framework_heart_disease.ipynb`: Compare PyTorch, Keras, and TensorFlow on heart disease data
-- `model_comparison_inferential_stats.ipynb`: Model comparison with statistical plots and tests, now using the Hugging Face Heart Disease Prediction dataset (`Naresh20/Heart_disease_prediction`)
-- `model_crossval_external_test.ipynb`: Cross-validation, model selection, and external test evaluation
+
+### Notebooks Included
+
+* **multi_framework_heart_disease.ipynb**: Compare PyTorch, Keras, and TensorFlow on heart disease data. Demonstrates how to build, train, and evaluate models across frameworks using a unified workflow.
+* **model_comparison_inferential_stats.ipynb**: Model comparison with statistical plots and tests, now using the Hugging Face Heart Disease Prediction dataset ([Naresh20/Heart_disease_prediction](https://huggingface.co/datasets/Naresh20/Heart_disease_prediction)). Includes robust evaluation, statistical analysis, and visualization of model performance.
+* **model_crossval_external_test.ipynb**: Cross-validation, model selection, and external test evaluation. Shows how to select the best model and validate on external data for generalizability.
 
 ## Python Crash Course for Healthcare Professionals and Students
 
