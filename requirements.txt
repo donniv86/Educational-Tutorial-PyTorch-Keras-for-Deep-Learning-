@@ -14,7 +14,15 @@
 # =============================================================================
 
 # ── Core Data & Visualisation ─────────────────────────────────────
-numpy>=1.24
+pandas
+matplotlib
+seaborn
+scikit-learn
+ucimlrepo
+joblib
+torch
+tensorflow
+keras
 pandas>=2.0
 matplotlib>=3.7
 seaborn>=0.12
