@@ -50,3 +50,7 @@ shap>=0.42
 jupyter>=1.0
 notebook>=7.0
 ipywidgets>=8.0
+
+# For basic statistics
+scipy  # For basic statistics
+csv    # For file I/O with CSV (standard library, but included for clarity)

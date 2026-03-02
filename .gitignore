@@ -1,4 +1,11 @@
-# Python
+# Ignore virtual environments
+.venv*/
+venv/
+env/
+ENV/
+.venv311/
+
+# Ignore Python cache and build files
 __pycache__/
 *.py[cod]
 *.pyo
@@ -9,17 +16,11 @@ dist/
 build/
 *.egg
 
-# Virtual environments
-.venv*/
-venv/
-env/
-ENV/
-
-# Jupyter
+# Ignore Jupyter checkpoints
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# Data & model artifacts
+# Ignore data and model artifacts
 *.pkl
 *.pt
 *.pth
@@ -27,16 +28,21 @@ ENV/
 *.csv
 *.zip
 data/
+saved_models/
 
-# macOS
+# Ignore macOS system files
 .DS_Store
 .AppleDouble
 .LSOverride
 
-# IDE
+# Ignore IDE settings
 .vscode/
 .idea/
 
-# Logs
+# Ignore logs
 *.log
-logs/
+
+# Ignore miscellaneous files
+example.txt
+patients.txt
+bp_by_patient.png
