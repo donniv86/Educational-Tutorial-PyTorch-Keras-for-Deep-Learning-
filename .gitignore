@@ -4,6 +4,7 @@ venv/
 env/
 ENV/
 .venv311/
+.env
 
 # Ignore Python cache and build files
 __pycache__/

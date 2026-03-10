@@ -12,7 +12,7 @@
 # INSTALL PYTORCH ONLY (all Python versions):
 #   pip install -r requirements-pytorch.txt
 # =============================================================================
-
+dotenv
 # ── Core Data & Visualisation ─────────────────────────────────────
 pandas
 matplotlib
